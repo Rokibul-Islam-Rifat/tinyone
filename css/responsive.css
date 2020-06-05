@@ -1,21 +1,133 @@
+/*  Extra small devices (portrait phones, less than 320px) */
+
+@media (max-width: 320px) {
+    /* slider part start */
+    .slider-part {
+        padding: 30px 0;
+    }
+    .inspire {
+        text-align: center;
+        padding-bottom: 19px;
+    }
+    .tab {
+        padding-left: 0;
+    }
+    .carousel-indicators {
+        bottom: -49px;
+    }
+    /* slider part end */
+    /* tinyone future part start */
+    .top-text p {
+        padding: 0;
+    }
+    .tinyone-future {
+        padding: 25px 25px;
+    }
+    .bottom-margin {
+        margin-top: 0;
+    }
+    .bottom-margin-top {
+        margin-top: 0;
+    }
+    .bottom-image h3 {
+        font-size: 18px;
+    }
+    .bottom-image p {
+        font-size: 12px;
+        padding-right: 0px;
+    }
+    /* tinyone future part end */
+}
+
+
 /*  Extra small devices (portrait phones, less than 576px) */
 
-@media (max-width: 575.98px) {
-    ...
+@media (min-width: 321px) and (max-width: 575.98px) {
+    /* slider part start */
+    .slider-part {
+        padding: 30px 0;
+    }
+    .inspire {
+        text-align: center;
+        padding-bottom: 19px;
+    }
+    .tab img {
+        padding-left: 100px;
+    }
+    .carousel-indicators {
+        bottom: -50px;
+    }
+    /* slider part end */
+    /* tinyone future part start */
+    .tinyone-future {
+        padding: 25px 25px;
+    }
+    .bottom-margin {
+        margin-top: 0;
+    }
+    .bottom-margin-top {
+        margin-top: 0;
+    }
+    .max-width img {
+        margin: 10px 70px;
+    }
+    /* tinyone future part end */
 }
 
 
 /*  Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    ...
+    /* slider part start */
+    .inspire {
+        text-align: center;
+        padding-bottom: 19px;
+    }
+    .tab img {
+        padding-left: 90px;
+    }
+    /* slider part end */
+    /* tinyone future part start */
+    .tinyone-future {
+        padding: 25px 0;
+    }
+    .bottom-margin {
+        margin-top: 0;
+    }
+    .bottom-margin-top {
+        margin-top: 0;
+    }
+    .max-width img {
+        margin: 10px 70px;
+    }
+    /* tinyone future part end */
 }
 
 
 /*  Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-    ...
+    /* slider part start */
+    .inspire {
+        text-align: center;
+        padding-bottom: 19px;
+    }
+    .inspire ul li i {
+        padding-right: 15px;
+    }
+    /* slider part end */
+    /* tinyone future part start */
+    .bottom-image h3 {
+        font-size: 20px;
+    }
+    .bottom-image p {
+        font-size: 14px;
+        padding-right: 0;
+    }
+    .max-width img {
+        max-width: 30px;
+    }
+    /* tinyone future part end */
 }
 
 

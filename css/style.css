@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* header part start */
+
+.header-area {
+    background: #fcdb00;
+    padding: 20px 0;
+}
+
+.menu ul li a {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color: #010101 !important;
+    font-size: 25px;
+}
+
+.menu ul li {
+    padding: 0 30px;
+}
+
+
+/* header part end */
+
+
+/* slide part start */
+
+.slider-part {
+    background: #fcdb00;
+    padding: 80px 0;
+}
+
+.inspire h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #010101;
+    padding-bottom: 15px;
+}
+
+.inspire h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: #313841;
+    padding-bottom: 15px;
+}
+
+.inspire p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 40px;
+    padding-bottom: 25px;
+    line-height: 25px;
+}
+
+.inspire ul li i {
+    font-size: 50px;
+    color: #010101;
+    padding-right: 40px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators li:hover {
+    background-color: #010101;
+}
+
+.custom-indicat>.active {
+    background-color: #010101;
+}
+
+.carousel-indicators {
+    bottom: -60px;
+}
+
+
+/* slide part end */
+
+
+/* tinyone-future part start */
+
+
+/* top text part */
+
+.tinyone-future {
+    padding: 120px 0;
+}
+
+.top-text h2 {
+    color: #010101;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    padding-bottom: 25px;
+}
+
+.top-text p {
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    color: #313841;
+    padding: 0px 150px;
+    line-height: 25px;
+}
+
+
+/* bottom image part */
+
+.bottom-margin {
+    margin-top: 120px;
+}
+
+.bottom-image h3 {
+    color: #010101;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.bottom-image p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.bottom-margin-top {
+    margin-top: 60px;
+}
+
+
+/* tinyone-future part end */
+
+
+/* font-family: 'PT Sans', sans-serif; */
