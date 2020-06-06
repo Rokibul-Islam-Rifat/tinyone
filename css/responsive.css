@@ -25,7 +25,7 @@
         padding: 0;
     }
     .tinyone-future {
-        padding: 25px 25px;
+        padding: 25px 0;
     }
     .bottom-margin {
         margin-top: 0;
@@ -34,11 +34,17 @@
         margin-top: 0;
     }
     .bottom-image h3 {
-        font-size: 18px;
+        font-size: 14px;
+        font-weight: bold;
     }
     .bottom-image p {
         font-size: 12px;
         padding-right: 0px;
+    }
+    .max-width img {
+        padding-top: 5px;
+        padding-bottom: 20px;
+        padding-left: 30px;
     }
     /* tinyone future part end */
     /* footer part start */
