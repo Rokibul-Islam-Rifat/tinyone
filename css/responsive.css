@@ -13,11 +13,23 @@
         text-align: center;
         padding-bottom: 19px;
     }
+    .inspire h2 {
+        font-size: 28px;
+        padding-bottom: 0px;
+    }
+    .inspire p {
+        padding-bottom: 0px;
+        line-height: 22px;
+    }
     .tab {
         padding-left: 0;
     }
     .carousel-indicators {
         bottom: -49px;
+    }
+    .inspire ul li i {
+        padding-right: 20px;
+        font-size: 40px;
     }
     /* slider part end */
     /* tinyone future part start */
@@ -69,6 +81,15 @@
     }
     .footer-margin {
         margin-top: 30px;
+    }
+    .footer-p {
+        text-align: center;
+    }
+    .footer-menu {
+        text-align: center;
+    }
+    .footer-menu ul li a:hover {
+        color: #ffa500;
     }
     /* footer part end */
 }
