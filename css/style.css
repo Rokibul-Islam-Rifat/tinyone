@@ -139,4 +139,86 @@ html {
 /* tinyone-future part end */
 
 
+/* footer part start */
+
+.footer-part {
+    background: #010101;
+    padding: 100px 0;
+}
+
+.top-part h2 {
+    font-family: 'PT Sans', sans-serif;
+    color: #fcdb00;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.top-part p {
+    font-size: 22px;
+    padding: 0px 135px;
+    color: #898989;
+    padding-bottom: 30px;
+}
+
+
+/* it's for form */
+
+.form-part {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.form-inline .form-control {
+    width: 700px;
+    height: 50px;
+}
+
+.btn-custom {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #fcdb00;
+    color: #010101;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 32px;
+}
+
+
+/* social icon part */
+
+.social-part ul li i {
+    font-size: 50px;
+    color: #fcdb00;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+
+/* bottom-part area */
+
+.footer-margin {
+    margin-top: 120px;
+}
+
+.footer-p p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footer-menu ul li a {
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+/* footer part end */
+
+
 /* font-family: 'PT Sans', sans-serif; */
