@@ -39,7 +39,7 @@ html {
 
 .inspire h2 {
     font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 40px;
     color: #010101;
     padding-bottom: 15px;
@@ -93,23 +93,23 @@ html {
 
 /* top text part */
 
-.tinyone-future {
-    padding: 120px 0;
+.tinyone-features {
+    padding: 100px 0;
 }
 
-.top-text h2 {
+.title h2 {
     color: #010101;
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 32px;
+    font-weight: 700;
     font-family: 'PT Sans', sans-serif;
     padding-bottom: 25px;
 }
 
-.top-text p {
+.title p {
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
     color: #313841;
-    padding: 0px 150px;
+    padding: 0 8%;
     line-height: 25px;
 }
 
@@ -150,7 +150,7 @@ html {
     font-family: 'PT Sans', sans-serif;
     color: #fcdb00;
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
     padding-bottom: 20px;
 }
@@ -170,20 +170,19 @@ html {
     display: inline-block;
 }
 
-.form-inline .form-control {
-    width: 700px;
-    height: 50px;
+.my-input input {
+    padding: 20px 25px;
+    margin-left: 20px;
 }
 
 .btn-custom {
     font-family: 'PT Sans', sans-serif;
-    background-color: #fcdb00;
-    color: #010101;
+    color: #010101 ! important;
     border: none;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 15px 32px;
+    padding: 10px 45px;
 }
 
 
@@ -203,10 +202,20 @@ html {
     margin-top: 120px;
 }
 
+.footer-p address {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
 .footer-p p {
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     color: #ffffff;
+}
+
+.footer-menu ul li {
+    list-style: none;
 }
 
 .footer-menu ul li a {
@@ -217,8 +226,9 @@ html {
     text-transform: capitalize;
 }
 
+.footer-menu ul li a:hover {
+    color: #fcdb00;
+}
+
 
 /* footer part end */
-
-
-/* font-family: 'PT Sans', sans-serif; */

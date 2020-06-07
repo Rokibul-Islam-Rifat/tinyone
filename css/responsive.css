@@ -36,7 +36,7 @@
     .top-text p {
         padding: 0;
     }
-    .tinyone-future {
+    .tinyone-futures {
         padding: 25px 0;
     }
     .bottom-margin {
@@ -67,12 +67,14 @@
         padding: 0px 0px;
     }
     /* form part */
-    .form-inline .form-control {
-        width: 292px;
+    .my-input input {
+        padding: 20px 25px;
+        margin-left: 0;
     }
     .btn-custom {
         margin: 0 auto;
         margin-top: 10px;
+        margin-left: 80px;
     }
     /* footer social icon */
     .social-part ul li i {
@@ -142,8 +144,8 @@
         padding: 0px 0px;
     }
     /* form part */
-    .form-inline .form-control {
-        width: 292px;
+    .my-input input {
+        padding: 20px 25px;
     }
     .btn-custom {
         margin: 0 auto;
@@ -196,17 +198,19 @@
         padding: 30px 0;
     }
     /* form part */
-    .form-inline .form-control {
-        width: 475px;
-    }
     .btn-custom {
         margin: 0 auto;
         margin-top: 10px;
+        margin-left: 195px;
     }
     /* footer social icon */
     .social-part ul li i {
         padding-left: 20px;
         padding-top: 0px;
+    }
+    .my-input input {
+        padding: 20px 25px;
+        margin-left: 0px;
     }
     .footer-margin {
         margin-top: 30px;
@@ -253,7 +257,6 @@
     }
     .btn-custom {
         margin: 0 auto;
-        margin-top: 10px;
     }
     /* footer social icon */
     .social-part ul li i {
